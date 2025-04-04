@@ -1,0 +1,69 @@
+# TypeScript-Projekt
+
+## 📌 Projektbeschreibung
+
+Dies ist ein einfaches TypeScript-Projekt mit einer sauberen Projektstruktur und einem `tsconfig.json` für eine optimierte Entwicklungsumgebung.
+
+## 🚀 Installation
+
+### 1. Node.js installieren
+
+Falls nicht vorhanden, lade und installiere [Node.js](https://nodejs.org/).
+
+### 2. Projekt einrichten
+
+Führe folgende Befehle im Terminal aus:
+
+```bash
+mkdir mein-projekt
+cd mein-projekt
+npm init -y    # Erstellt package.json
+tsc --init     # Erstellt tsconfig.json
+```
+
+### 3. TypeScript und ts-node installieren (optional für schnellere Entwicklung)
+
+```bash
+npm install -g typescript ts-node
+```
+
+## 🛠 Projektstruktur
+
+```plaintext
+mein-projekt/
+├── src/
+│   ├── hello.ts
+├── dist/
+├── tsconfig.json
+├── package.json
+```
+
+## ✍️ Beispielcode (`src/hello.ts`)
+
+```ts
+const greet = (name: string): void => {
+    console.log(`Hallo, ${name}!`);
+};
+
+greet('TypeScript');
+```
+
+## 🔧 Kompilieren & Ausführen
+
+### TypeScript-Code kompilieren
+
+```bash
+tsc    # kompiliert alle Dateien aus src/ nach dist/
+```
+
+### JavaScript ausführen
+
+```bash
+node dist/hello.js
+```
+
+### Direkt ausführen mit `ts-node` (für Entwicklung)
+
+```bash
+npx ts-node src/hello.ts
+```
