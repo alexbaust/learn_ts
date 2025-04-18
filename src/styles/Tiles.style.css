@@ -1,0 +1,40 @@
+.tile {
+    border-radius: 2px;
+    margin: 0.5rem;
+    padding: 0.5rem;
+    /* color: white; */
+    height: 2rem;
+    width: 2rem;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.correct {
+    background-color: #6aaa64;
+}
+
+.false {
+    background-color: #787c7e;
+}
+
+.wrongposition {
+    background-color: #c9b458;
+}
+
+.unknown {
+    background-color: white;
+}
+
+.known {
+    background-color: black;
+}
+
+.crtRow {
+    border: 1px solid red;
+}
+
+.notCrtRow {
+    border: 1px solid black;
+}

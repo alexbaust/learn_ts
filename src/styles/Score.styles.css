@@ -1,0 +1,38 @@
+.score {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: beige;
+    height: 100vh;
+}
+
+.info-box {
+    border: 1px solid black;
+    border-radius: 5px;
+    padding: 1rem 2rem;
+    background-color: bisque;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.stats {
+    display: block;
+}
+
+.oneStat {
+    display: flex;
+    justify-content: space-around;
+    border: 1px solid black;
+    padding: 0.5rem 1rem;
+    margin: 1rem;
+}
+
+h2 {
+    margin: 1rem;
+}
+
+p {
+    margin: 0.5rem;
+}

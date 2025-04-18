@@ -1,0 +1,23 @@
+.screen {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: beige;
+    height: 100vh;
+}
+
+.game-wrapper {
+    display: flex;
+    flex-direction: column;
+}
+
+.refresh-btn {
+    border: 1px solid black;
+    border-radius: 2px;
+    padding: 1rem 2rem;
+    margin: 0.5rem;
+}
+
+.done {
+    background-color: red;
+}

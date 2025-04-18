@@ -1,24 +1,24 @@
-# Node modules (dependencies)
-node_modules/
-
-# Build output
-dist/
-build/
-
-# TypeScript cache
-*.tsbuildinfo
-
 # Logs
-logs/
+logs
 *.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
 
-# OS / Editor-Sachen
+node_modules
+dist
+dist-ssr
+*.local
+
+# Editor directories and files
+.vscode/*
+!.vscode/extensions.json
+.idea
 .DS_Store
-Thumbs.db
-
-# VS Code settings
-.vscode/
-
-# Env-Dateien (wenn vorhanden)
-.env
-.env.*
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
