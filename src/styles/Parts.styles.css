@@ -1,0 +1,47 @@
+.parts{
+    padding: 1rem 2rem;
+}
+.PartInfos {
+    display: flex;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    max-width: calc(4 * 350px + 3 * 1.5rem);
+    /* max-width: 100%; 4 Columns + 3 Gaps */
+    gap: 1.5rem;
+    padding: 1rem;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+
+
+
+
+.sorting {
+    display: block;
+}
+
+.general-info{
+
+}
+
+.sequence-info{
+    max-width: 100%;
+    overflow-x: auto;
+}
+
+.sorting-selection{
+    display: flex
+}
+
+.reverse-btn{
+    padding: 1rem 2rem;
+    margin: 0rem 1rem;
+}
+
+.reverse-dropdown {
+    padding: 1rem 2rem;
+}

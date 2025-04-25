@@ -1,0 +1,31 @@
+.NestingEnv {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+.loading{
+    border: 1px solid black;
+    border-radius: 10px;
+    background-color: beige;
+    padding: 1rem 2rem;
+}
+
+.results{
+    border: 1px solid black;
+    border-radius: 10px;
+    background-color: beige;
+    padding: 1rem 2rem;
+    margin: 1rem;
+    width: 95%;
+}
+
+.result-image-wrapper{
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+}
+
+.result-image {
+    width: 100%;
+}

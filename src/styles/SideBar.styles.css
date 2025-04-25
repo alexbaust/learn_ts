@@ -1,0 +1,76 @@
+.sidebar-minimized {
+    /* position: fixed; */
+    width: 50px; /* Schmale Breite im minimierten Zustand */
+    height: 100vh;
+    background-color: #f8f9fa; /* Heller Hintergrund */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px 0;
+    box-shadow: 1px 0 5px rgba(0, 0, 0, 0.1);
+    transition: width 0.3s ease-in-out;
+    flex-shrink: 0; /* Verhindert, dass die Sidebar schrumpft */
+}
+
+.sidebar-expanded {
+    width: 300px; /* Breite im expandierten Zustand (kann angepasst werden) */
+    /* position: fixed; */
+    min-height: 100vh;
+    height: 100vh;
+    background-color: #f8f9fa; /* Heller Hintergrund */
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    padding: 10px 12px;
+    box-shadow: 1px 0 5px rgba(0, 0, 0, 0.1);
+    transition: width 0.3s ease-in-out;
+}
+
+.expand-button {
+    margin-bottom: 20px;
+}
+
+.icon-container {
+    margin-bottom: 20px;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 40px;
+    height: 40px;
+}
+
+.dropdown-item-with-info {
+    position: relative;
+}
+
+.hover-info {
+    display: none;
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0.8);
+    color: white;
+    padding: 5px;
+    border-radius: 3px;
+    font-size: 0.8em;
+    top: 50%;
+    left: 110%;
+    transform: translateY(-50%);
+    z-index: 10;
+    white-space: nowrap;
+}
+
+.dropdown-item-with-info:hover .hover-info {
+    display: block;
+}
+
+.setting{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.input{
+    /* padding: 0.5rem 1rem;
+    margin: 0.5rem 1rem; */
+    width: 75%;
+}

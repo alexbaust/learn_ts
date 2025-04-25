@@ -1,0 +1,21 @@
+.app {
+    display: block;
+    height: 100vh; /* Optional: Füllt die gesamte Bildschirmhöhe */
+    /* overflow-x: hidden; */
+}
+
+.main-container{
+    margin: 0rem 0rem;
+    display: flex; /* Macht main-content zu einem Flex-Container */
+    flex-direction: row; /* Ordnet die Kinder horizontal an (nebeneinander) */
+    width: 100%; 
+    height: 100vh; 
+}
+
+.main-content {
+    /* display: flex;
+    flex-direction: column;
+    justify-content: start; */
+    /* margin: 1rem auto; */
+    width: 100%; 
+}

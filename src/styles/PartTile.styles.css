@@ -1,0 +1,18 @@
+.tile {
+    border: 1px solid black;
+    border-radius: 10px;
+    background-color: beige;
+    padding: 1rem;
+}
+
+.part-image {
+    width: 200px;
+    height: 200px;
+}
+
+.part-image-wrapper {
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+    /* width: 40px;
+    height: 40px; */
+}
